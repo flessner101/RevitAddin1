@@ -26,6 +26,8 @@ namespace RevitAddin1
             Document doc = uidoc.Document;
 
             TaskDialog.Show("hell", "This is my first command");
+            TaskDialog.Show("Hello Again", "This is another command");
+            TaskDialog.Show("Hello Hello", "This is a hello");
 
             return Result.Succeeded;
         }
